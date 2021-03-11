@@ -1,0 +1,85 @@
+:root {
+  --bg-image-url: url("https://cdn5.f-cdn.com/contestentries/190907/65270/5521413f78d82_thumb900.jpg");
+  --color-lightgreen: #b1cbbb;
+  --color-lightgreen50: #b1cbbbe1;
+  --color-reddish: #c94c4c;
+  --color-reddish50: #c94c4ce1;
+  --color-faintblue: #deeaeee1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  min-width: 300px;
+  background-image: var(--bg-image-url);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-in {
+  height: 30vh;
+  background-color: var(--color-lightgreen50);
+}
+
+.header-in .title {
+  max-width: 900px;
+  font-size: 1.4rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.main-in {
+  min-height: 50vh;
+  padding: 1rem;
+  background-color: var(--color-faintblue);
+}
+
+.main-in .main-container {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.instructions {
+  margin-bottom: 2rem;
+}
+
+.result {
+  color: darkblue;
+  padding: 1rem;
+  background-color: var(--color-lightgreen50);
+  min-height: 20vh;
+  border: 3px solid var(--color-lightgreen);
+  border-radius: 25px;
+  font-weight: bolder;
+}
+
+.result p {
+  border-bottom: 1px solid var(--color-lightgreen);
+}
+
+.alert {
+  color: var(--color-reddish);
+}
+
+.footer-in {
+  color: white;
+  min-height: 20vh;
+  padding: 1rem;
+  background-color: var(--color-reddish50);
+}
+
+.footer-in .copyrights {
+  margin: 0 auto;
+  max-width: 900px;
+}
