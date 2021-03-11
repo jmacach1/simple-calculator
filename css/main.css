@@ -1,10 +1,11 @@
 :root {
   --bg-image-url: url("https://cdn5.f-cdn.com/contestentries/190907/65270/5521413f78d82_thumb900.jpg");
-  --color-lightgreen: #b1cbbb;
-  --color-lightgreen50: #b1cbbbe1;
-  --color-reddish: #c94c4c;
-  --color-reddish50: #c94c4ce1;
-  --color-faintblue: #deeaeee1;
+  --lightgreen: #b1cbbb;
+  --lightgreen50: #b1cbbb50;
+  --lightgreen90: #b1cbbbe1;
+  --reddish: #c94c4c;
+  --reddish90: #c94c4ce1;
+  --faintblue90: #deeaeee1;
 }
 
 * {
@@ -29,7 +30,7 @@ header {
 
 .header-in {
   height: 30vh;
-  background-color: var(--color-lightgreen50);
+  background-color: var(--lightgreen90);
 }
 
 .header-in .title {
@@ -42,7 +43,7 @@ header {
 .main-in {
   min-height: 50vh;
   padding: 1rem;
-  background-color: var(--color-faintblue);
+  background-color: var(--faintblue90);
 }
 
 .main-in .main-container {
@@ -57,26 +58,26 @@ header {
 .result {
   color: darkblue;
   padding: 1rem;
-  background-color: var(--color-lightgreen50);
+  background-color: var(--lightgreen50);
   min-height: 20vh;
-  border: 3px solid var(--color-lightgreen);
+  border: 3px solid var(--lightgreen);
   border-radius: 25px;
   font-weight: bolder;
 }
 
 .result p {
-  border-bottom: 1px solid var(--color-lightgreen);
+  border-bottom: 1px solid var(--lightgreen);
 }
 
 .alert {
-  color: var(--color-reddish);
+  color: var(--reddish);
 }
 
 .footer-in {
   color: white;
   min-height: 20vh;
   padding: 1rem;
-  background-color: var(--color-reddish50);
+  background-color: var(--reddish90);
 }
 
 .footer-in .copyrights {
